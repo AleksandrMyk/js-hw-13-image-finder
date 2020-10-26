@@ -15,9 +15,18 @@ body {
   background-image: url('./images/bg-pattern.png');
 }
 
+.secBox {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+}
 .search-form {
- display: flex;
- justify-content: center;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 input {
@@ -25,6 +34,7 @@ input {
   padding: 5px;
   font-size: 28px;
   outline-color: #3c4245;
+  margin: 0 auto;
 }
 
 button {
@@ -44,11 +54,16 @@ button {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+  margin: 0;
+  padding: 0;
 }
 
 .list-items {
   list-style: none;
+  margin: 0 auto;
 }
 
 img {
